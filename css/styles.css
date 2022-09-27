@@ -1,0 +1,38 @@
+.box {
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    border: solid 3px black;
+}
+
+
+.player {
+    position: relative;
+    height: 10px;
+    top: 15px;
+    left: 20px;
+    transform: rotate(0.5turn);
+    animation-name: none;
+    animation-duration: 1s;
+}
+
+@keyframes upfromdown {
+    0% {transform: rotate(1turn);}
+    100% {transform: rotate(0.5turn);}
+}
+
+@keyframes downfromup {
+    0% {transform: rotate(0.5turn);}
+    100% {transform: rotate(1turn);}
+}
+
+@keyframes upfromdown {
+    0% {transform: rotate(1turn);}
+    100% {transform: rotate(0.5turn);}
+}
+
+@keyframes upfromdown {
+    0% {transform: rotate(1turn);}
+    100% {transform: rotate(0.5turn);}
+}
